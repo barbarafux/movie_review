@@ -15,7 +15,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc					# bundle exec rake doc:rails generates t
 # gem 'capistrano-rails', group: :development		# Use Capistrano for deployment
 
 gem 'devise'										# User Authentication
-gem 'bootstrap-sass', '~> 3.2.0.2'					# Bootstrap
+gem 'bootstrap-sass', '~> 3.4.1'					  # Bootstrap
 gem 'carrierwave'									# Add Images
 gem 'rmagick'										# Image manipulation
 
