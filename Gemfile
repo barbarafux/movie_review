@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.4'
-gem 'mysql2', '~> 0.3.20'							# MYSQL as the database for Active Record
+gem 'rails', '~> 6.0'
+gem 'mysql2'							# MYSQL as the database for Active Record
 gem 'sass-rails', '~> 5.0'							# Use SCSS for stylesheets
 gem 'uglifier', '>= 1.3.0'							# Use Uglifier as compressor for JavaScript assets
-gem 'coffee-rails', '~> 4.1.0'						# Use CoffeeScript for .coffee assets and views
+gem 'coffee-rails', '~> 5.0'					# Use CoffeeScript for .coffee assets and views
 # gem 'therubyracer', platforms: :rubygems 			# See https://github.com/rails/execjs#readme for more supported runtimes
 gem 'jquery-rails'									# Use jquery as the JavaScript library
 gem 'turbolinks'									# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
@@ -18,6 +18,17 @@ gem 'devise'										# User Authentication
 gem 'bootstrap-sass', '~> 3.4.1'					  # Bootstrap
 gem 'carrierwave'									# Add Images
 gem 'rmagick'										# Image manipulation
+
+gem 'json'
+
+gem 'actionpack', '~> 6.0', '>= 6.0.3.4'
+gem 'actionview', '~> 6.0', '>= 6.0.3.4'
+gem 'activejob', '~> 6.0', '>= 6.0.3.4'
+gem 'activemodel', '~> 6.0', '>= 6.0.3.4'
+gem 'activerecord', '~> 6.0', '>= 6.0.3.4'
+gem 'sprockets'#, '~> 4.0', '>= 4.0.2'
+gem 'rack', '~> 2.2', '>= 2.2.3'
+
 
 group :development, :test do
   gem 'byebug'										# Call 'byebug' anywhere in the code to stop execution and get a debugger console
