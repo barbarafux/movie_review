@@ -21,7 +21,7 @@ gem 'rmagick'										# Image manipulation
 
 gem 'json', '~> 2.3', '>= 2.3.1'
 
-gem 'actionpack', '~> 6.0', '>= 6.0.3.4'
+gem 'actionpack', '~> 6.0'
 gem 'actionview', '~> 6.0', '>= 6.0.3.4'
 gem 'activejob', '~> 6.0', '>= 6.0.3.4'
 gem 'activemodel', '~> 6.0', '>= 6.0.3.4'
