@@ -27,7 +27,7 @@ gem 'activejob', '~> 6.0', '>= 6.0.3.4'
 gem 'activemodel', '~> 6.0', '>= 6.0.3.4'
 gem 'activerecord', '~> 6.0', '>= 6.0.3.4'
 gem 'sprockets'#, '~> 4.0', '>= 4.0.2'
-gem 'rack', '~> 2.2', '>= 2.2.3'
+gem 'rack', '~> 2.2'
 
 
 group :development, :test do
