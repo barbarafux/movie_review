@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 6.0'
+gem 'rails', '~> 7.0'
 gem 'mysql2'							# MYSQL as the database for Active Record
 gem 'sass-rails', '~> 5.0'							# Use SCSS for stylesheets
 gem 'uglifier', '>= 1.3.0'							# Use Uglifier as compressor for JavaScript assets
@@ -21,11 +21,11 @@ gem 'rmagick'										# Image manipulation
 
 gem 'json', '~> 2.3', '>= 2.3.1'
 
-gem 'actionpack', '~> 6.0', '>= 6.0.3.4'
-gem 'actionview', '~> 6.0', '>= 6.0.3.4'
-gem 'activejob', '~> 6.0', '>= 6.0.3.4'
-gem 'activemodel', '~> 6.0', '>= 6.0.3.4'
-gem 'activerecord', '~> 6.0', '>= 6.0.3.4'
+gem 'actionpack', '~> 7.0'
+gem 'actionview', '~> 7.0'
+gem 'activejob', '~> 7.0'
+gem 'activemodel', '~> 7.0'
+gem 'activerecord', '~> 7.0'
 gem 'sprockets'#, '~> 4.0', '>= 4.0.2'
 gem 'rack', '~> 2.2', '>= 2.2.3'
 
